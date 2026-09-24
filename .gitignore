@@ -1,0 +1,49 @@
+# ─── OS ───────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ─── Editors ──────────────────────────────────────────────────
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+
+# ─── Project-specific ─────────────────────────────────────────
+# Jangan commit CV pribadi ke repo publik (opsional)
+# cv-*.pdf
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (jika nanti menambahkan tooling)
+node_modules/
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+dist/
+.cache/
